@@ -1,11 +1,9 @@
 """ Checkout related views. """
 from __future__ import absolute_import, unicode_literals
 
-import logging
 from decimal import Decimal
 
 from django.conf import settings
-from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from django.http import Http404
 from django.shortcuts import get_object_or_404
